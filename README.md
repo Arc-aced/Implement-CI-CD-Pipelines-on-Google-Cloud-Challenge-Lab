@@ -4,7 +4,8 @@
 
 ```
 gcloud storage buckets create gs://${PROJECT_ID}_cloudbuild \
--p $PROJECT_ID
+--project=${PROJECT_ID} \
+--location=${REGION}
 ```
 ##TASK 2
 ```
