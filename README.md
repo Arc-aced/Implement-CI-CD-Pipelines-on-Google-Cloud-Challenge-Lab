@@ -19,6 +19,9 @@ gcloud config set deploy/region $REGION
 gcloud beta deploy apply \
 --file=clouddeploy-config/delivery-pipeline.yaml
 ```
+```
+CONTEXTS=(cd-staging cd-production)
+```
 ##TASK 4
 ```
 gcloud beta deploy releases create web-app-001 \
