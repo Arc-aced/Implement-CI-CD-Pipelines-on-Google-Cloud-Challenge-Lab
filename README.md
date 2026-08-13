@@ -51,6 +51,9 @@ gcloud beta deploy rollouts approve [xxx] \
 --release web-app-001 \
 --quiet
 ```
+```
+gcloud services enable cloudbuilt.googleapis.com
+```
 
 ##TASK 6
 ```
