@@ -43,7 +43,7 @@ gcloud beta deploy releases create web-app-001 \
 gcloud beta deploy releases promote \
 --delivery-pipeline web-app \
 --release web-app-001 \
---to-target cd-production
+--quiet
 ```
 
 ##TASK 6
