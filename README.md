@@ -46,7 +46,13 @@ gcloud beta deploy releases promote \
 --quiet
 ```
 ```
-gcloud beta deploy rollouts approve [xxx] \
+gcloud beta deploy rollouts approve web-app-001-to-cd-production-0003 \
+--delivery-pipeline web-app \
+--release web-app-001 \
+--quiet
+```
+```
+gcloud beta deploy rollouts approve web-app-001-to-cd-production-0001 \
 --delivery-pipeline web-app \
 --release web-app-001 \
 --quiet
