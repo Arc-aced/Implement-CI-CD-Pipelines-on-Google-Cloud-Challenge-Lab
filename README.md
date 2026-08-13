@@ -22,6 +22,14 @@ gcloud beta deploy apply \
 ```
 CONTEXTS=("cd-production" "cd-staging")
 ```
+```
+gcloud beta deploy apply \
+--file=clouddeploy-config/target-cd-staging.yaml
+```
+```
+gcloud beta deploy apply \
+--file=clouddeploy-config/target-cd-production.yaml
+```
 ##TASK 4
 ```
 gcloud beta deploy releases create web-app-001 \
