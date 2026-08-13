@@ -45,6 +45,11 @@ gcloud beta deploy releases promote \
 --release web-app-001 \
 --quiet
 ```
+```
+gcloud beta deploy rollouts approve [xxx] \
+--delivery-pipeline web-app
+--release web-app-001
+```
 
 ##TASK 6
 ```
