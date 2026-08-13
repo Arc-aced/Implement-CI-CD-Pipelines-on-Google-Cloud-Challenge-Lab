@@ -52,7 +52,7 @@ gcloud beta deploy rollouts approve [xxx] \
 --quiet
 ```
 ```
-gcloud services enable cloudbuilt.googleapis.com
+gcloud services enable cloudbuild.googleapis.com
 ```
 
 ##TASK 6
