@@ -20,7 +20,7 @@ gcloud beta deploy apply \
 --file=clouddeploy-config/delivery-pipeline.yaml
 ```
 ```
-CONTEXTS=(cd-staging cd-production)
+CONTEXTS=("cd-production" "cd-staging")
 ```
 ##TASK 4
 ```
